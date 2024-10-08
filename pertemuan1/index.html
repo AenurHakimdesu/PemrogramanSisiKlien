@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <title>Nyacak</title>
+    <style>
+        body {
+            margin : 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            background-color: blue;
+        }
+
+        aside {
+            background-color: bisque ;
+            padding: 10px;
+        }
+
+        .content {
+            background-color: aquamarine;
+            flex: 1;
+        }
+
+        footer {
+            background-color: blue;
+        }
+
+    </style>
+    
+</head>
+<div>
+    <div class="container">
+        <header>
+            <button>Log Out</button>
+        </header>
+
+    <aside>
+        <h1>Admin Penel</h1>
+        <nav>
+            <ul>
+                <li><a href="">Dashboard</a></li>
+                <li><a href="">Mahasiswa</a></li>
+                <li><a href="">Settings</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+        <div class="content">
+            <h2>Daftar Mahasiswa</h2>
+            
+            <button>
+                Tambah Mahasiswa
+            </button>
+
+            <table>
+                <head>
+                    <tr>
+                        <th>No.</th>
+                        <th>NIM</th>
+                        <th>Nama</th>
+                    </tr>
+                </head>
+                <body>
+                    <tr>
+                        <td>1</td>
+                        <td>1463</td>
+                        <td>Amba</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>14631</td>
+                        <td>Tukam</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>14632</td>
+                        <td>Buzz</td>
+                    </tr>
+                </body>
+            </table>
+        </div>
+    </div>
+
+        <footer>
+            &copy: 2024 admin
+        </footer>
+    </div>  
+</body>
+</html>
